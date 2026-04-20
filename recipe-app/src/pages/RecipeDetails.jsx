@@ -16,15 +16,26 @@ export function RecipeDetail() {
   }, [id]);
   return (
     <>
-    <button onClick={() => navigate(-1)}>Back</button>
+      <button onClick={() => navigate(-1)} className="backbtn">
+        Back
+      </button>
       {!meal ? (
-        <h1>Loading...</h1>
+        <h1 className="loading">Loading...</h1>
       ) : (
-        <div>
-          <img src={meal.strMealThumb} /><h1>{meal.strMeal}</h1>
-          <p>{meal.strCategory}</p>
-          <p>{meal.strInstructions}</p>
-          <p>{meal.strSource}</p>
+        <div className="recipe-detail">
+          <img src={meal.strMealThumb} />
+          <div className="detail-info">
+            <h1>{meal.strMeal}</h1>
+            <p>
+              <strong>Category:</strong> {meal.strCategory}
+            </p>
+            <p>
+              <strong>Instructions:</strong> {meal.strInstructions}
+            </p>
+            <a href={meal.strSource} target="_blank">
+              View Full Recipe
+            </a>
+          </div>
         </div>
       )}
     </>
