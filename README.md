@@ -2,7 +2,7 @@
 
 A web app for browsing and displaying recipes, built as a JavaScript project to practise working with dynamic data and component-based UI.
 
-**Live demo:** [developer-coder1.github.io/Youtube-clone](https://developer-coder1.github.io/Youtube-clone/)
+**Live demo:** [recipe-coder1.netlify.app](https://recipe-coder1.netlify.app)
 
 ## What it does
 
