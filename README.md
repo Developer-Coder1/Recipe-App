@@ -2,14 +2,14 @@
 
 A web app for browsing and displaying recipes, built as a JavaScript project to practise working with dynamic data and component-based UI.
 
-<!-- TODO: add a live demo link here if you deploy it on Netlify/Vercel. Super easy: drag the project folder into netlify.com/drop -->
+**Live demo:** [developer-coder1.github.io/Youtube-clone](https://developer-coder1.github.io/Youtube-clone/)
 
 ## What it does
 
-<!-- TODO: replace these with what your app actually does. Delete lines that aren't true. -->
+
 - Displays a list of recipes with images, titles, and ingredients.
 - Lets you click a recipe to see the full instructions.
-- [Add any other features you built here]
+
 
 ## Why I built it
 
@@ -17,7 +17,7 @@ I wanted a project that would push me past static HTML and CSS into real JavaScr
 
 ## What I learned
 
-<!-- TODO: keep the ones that are true, delete the rest -->
+
 - How to split a JavaScript app into multiple files and import between them.
 - Using `npm` and `package.json` to manage dependencies.
 - Fetching data (from an API or a local JSON file) and rendering it to the page.
@@ -26,12 +26,12 @@ I wanted a project that would push me past static HTML and CSS into real JavaScr
 
 ## Tech used
 
-<!-- TODO: confirm this matches what you actually used, then delete this comment -->
+
 - JavaScript (64% of the codebase)
 - CSS (30%)
 - HTML (5%)
 - Node.js / npm for package management
-- [Add: React? Vite? Any libraries?]
+
 
 ## Running it locally
 
