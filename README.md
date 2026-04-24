@@ -2,7 +2,7 @@
 
 A web app for browsing and displaying recipes, built as a JavaScript project to practise working with dynamic data and component-based UI.
 
-**Live demo:** [recipe-coder1.netlify.app](https://recipe-coder1.netlify.app)
+**Live demo:** [recipe-app-phi-seven-26.vercel.app](https://recipe-app-phi-seven-26.vercel.app)
 
 ## What it does
 
